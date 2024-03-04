@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A001B6FF2A89F3F100C52EA9 /* breathThingy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001B6FE2A89F3F100C52EA9 /* breathThingy.swift */; };
+		A001B7012A89F49100C52EA9 /* CircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001B7002A89F49100C52EA9 /* CircularProgress.swift */; };
+		A01888152AC6991200AE748B /* booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01888142AC6991200AE748B /* booking.swift */; };
+		A03058FD2AC1526200321423 /* trannyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03058FC2AC1526200321423 /* trannyView.swift */; };
 		A0397D4A2A8797C1004BA372 /* NexWell_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0397D492A8797C1004BA372 /* NexWell_App.swift */; };
 		A0397D4C2A8797C1004BA372 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0397D4B2A8797C1004BA372 /* ContentView.swift */; };
 		A0397D4E2A8797C1004BA372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0397D4D2A8797C1004BA372 /* Assets.xcassets */; };
@@ -16,6 +20,37 @@
 		A0397D602A8797C2004BA372 /* NexWell_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0397D5F2A8797C2004BA372 /* NexWell_Tests.swift */; };
 		A0397D6A2A8797C2004BA372 /* NexWell_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0397D692A8797C2004BA372 /* NexWell_UITests.swift */; };
 		A0397D6C2A8797C2004BA372 /* NexWell_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0397D6B2A8797C2004BA372 /* NexWell_UITestsLaunchTests.swift */; };
+		A0397D792A8797EF004BA372 /* mainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0397D782A8797EF004BA372 /* mainPage.swift */; };
+		A0397D7B2A879811004BA372 /* wave.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0397D7A2A879811004BA372 /* wave.swift */; };
+		A0397D7D2A879835004BA372 /* stuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0397D7C2A879835004BA372 /* stuff.swift */; };
+		A0397D7F2A879868004BA372 /* ifNeedPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0397D7E2A879868004BA372 /* ifNeedPersistence.swift */; };
+		A0599CC42AB93D65003574D5 /* HelplineCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0599CC32AB93D65003574D5 /* HelplineCenter.swift */; };
+		A0615B5A2AE65897009C5332 /* SNGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0615B592AE65897009C5332 /* SNGame.swift */; };
+		A0615B5C2AE658B7009C5332 /* Snake.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0615B5B2AE658B7009C5332 /* Snake.swift */; };
+		A0615B612AE658EE009C5332 /* SnakeMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0615B602AE658EE009C5332 /* SnakeMain.swift */; };
+		A0615B632AE658F5009C5332 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0615B622AE658F5009C5332 /* ScoreView.swift */; };
+		A0615B652AE658FC009C5332 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0615B642AE658FC009C5332 /* ButtonView.swift */; };
+		A0615B672AE65900009C5332 /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0615B662AE65900009C5332 /* ButtonsView.swift */; };
+		A0615B6A2AE6591C009C5332 /* HeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0615B692AE6591C009C5332 /* HeadView.swift */; };
+		A0615B6C2AE65920009C5332 /* BodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0615B6B2AE65920009C5332 /* BodyView.swift */; };
+		A0615B6E2AE65924009C5332 /* TailBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0615B6D2AE65924009C5332 /* TailBody.swift */; };
+		A099A8CD2A9B6B9400F22B82 /* gameCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A099A8CC2A9B6B9400F22B82 /* gameCenter.swift */; };
+		A0A18D662ADD23E4000E2A53 /* mainButtonsStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A18D652ADD23E4000E2A53 /* mainButtonsStuff.swift */; };
+		A0A18D692ADD2690000E2A53 /* breatheTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A18D682ADD2690000E2A53 /* breatheTimer.swift */; };
+		A0A18D6B2ADD40F9000E2A53 /* Promodoro.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A18D6A2ADD40F9000E2A53 /* Promodoro.swift */; };
+		A0A18D6D2ADD457E000E2A53 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A18D6C2ADD457E000E2A53 /* TimerManager.swift */; };
+		A0A18D6F2ADD67FB000E2A53 /* colorSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A18D6E2ADD67FB000E2A53 /* colorSettings.swift */; };
+		A0A3ED902A8F04ED004EF84C /* flappyBird.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A3ED8F2A8F04ED004EF84C /* flappyBird.swift */; };
+		A0A51E272ADE71B60096A066 /* quoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A51E262ADE71B60096A066 /* quoteView.swift */; };
+		A0B2B01E2AAAD2C700073169 /* soundCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B2B01D2AAAD2C700073169 /* soundCenter.swift */; };
+		A0BBD1642AC27B9400CD7841 /* CroissantOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0BBD1632AC27B9400CD7841 /* CroissantOne-Regular.ttf */; };
+		A0C3CFBA2A9B5CFC0046D930 /* linkEmbedd.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C3CFB92A9B5CFC0046D930 /* linkEmbedd.swift */; };
+		A0CC90A52B02234500E33BA4 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CC90A42B02234500E33BA4 /* GameView.swift */; };
+		A0CE040F2ABA7CA0000A5CCD /* moreStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CE040E2ABA7CA0000A5CCD /* moreStuff.swift */; };
+		A0CF461F2AB29A7B00C989EC /* articleCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CF461E2AB29A7B00C989EC /* articleCenter.swift */; };
+		A0D848A62AE5019000FAD94C /* imagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D848A52AE5019000FAD94C /* imagePicker.swift */; };
+		A0D848A82AE5019C00FAD94C /* imageViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D848A72AE5019C00FAD94C /* imageViewer.swift */; };
+		A0D848AA2AE5054D00FAD94C /* notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D848A92AE5054D00FAD94C /* notifications.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +71,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A001B6FE2A89F3F100C52EA9 /* breathThingy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = breathThingy.swift; sourceTree = "<group>"; };
+		A001B7002A89F49100C52EA9 /* CircularProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgress.swift; sourceTree = "<group>"; };
+		A01888142AC6991200AE748B /* booking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = booking.swift; sourceTree = "<group>"; };
+		A03058FC2AC1526200321423 /* trannyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trannyView.swift; sourceTree = "<group>"; };
 		A0397D462A8797C1004BA372 /* NexWell..app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NexWell..app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0397D492A8797C1004BA372 /* NexWell_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NexWell_App.swift; sourceTree = "<group>"; };
 		A0397D4B2A8797C1004BA372 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +87,38 @@
 		A0397D652A8797C2004BA372 /* NexWell.UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NexWell.UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0397D692A8797C2004BA372 /* NexWell_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NexWell_UITests.swift; sourceTree = "<group>"; };
 		A0397D6B2A8797C2004BA372 /* NexWell_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NexWell_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A0397D782A8797EF004BA372 /* mainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainPage.swift; sourceTree = "<group>"; };
+		A0397D7A2A879811004BA372 /* wave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wave.swift; sourceTree = "<group>"; };
+		A0397D7C2A879835004BA372 /* stuff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stuff.swift; sourceTree = "<group>"; };
+		A0397D7E2A879868004BA372 /* ifNeedPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ifNeedPersistence.swift; sourceTree = "<group>"; };
+		A05728C42AE67732006E4B87 /* NexWell--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NexWell--Info.plist"; sourceTree = "<group>"; };
+		A0599CC32AB93D65003574D5 /* HelplineCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelplineCenter.swift; sourceTree = "<group>"; };
+		A0615B592AE65897009C5332 /* SNGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNGame.swift; sourceTree = "<group>"; };
+		A0615B5B2AE658B7009C5332 /* Snake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Snake.swift; sourceTree = "<group>"; };
+		A0615B602AE658EE009C5332 /* SnakeMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnakeMain.swift; sourceTree = "<group>"; };
+		A0615B622AE658F5009C5332 /* ScoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		A0615B642AE658FC009C5332 /* ButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		A0615B662AE65900009C5332 /* ButtonsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
+		A0615B692AE6591C009C5332 /* HeadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadView.swift; sourceTree = "<group>"; };
+		A0615B6B2AE65920009C5332 /* BodyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BodyView.swift; sourceTree = "<group>"; };
+		A0615B6D2AE65924009C5332 /* TailBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TailBody.swift; sourceTree = "<group>"; };
+		A099A8CC2A9B6B9400F22B82 /* gameCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameCenter.swift; sourceTree = "<group>"; };
+		A0A18D652ADD23E4000E2A53 /* mainButtonsStuff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainButtonsStuff.swift; sourceTree = "<group>"; };
+		A0A18D682ADD2690000E2A53 /* breatheTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = breatheTimer.swift; sourceTree = "<group>"; };
+		A0A18D6A2ADD40F9000E2A53 /* Promodoro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promodoro.swift; sourceTree = "<group>"; };
+		A0A18D6C2ADD457E000E2A53 /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
+		A0A18D6E2ADD67FB000E2A53 /* colorSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorSettings.swift; sourceTree = "<group>"; };
+		A0A3ED8F2A8F04ED004EF84C /* flappyBird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flappyBird.swift; sourceTree = "<group>"; };
+		A0A51E262ADE71B60096A066 /* quoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quoteView.swift; sourceTree = "<group>"; };
+		A0B2B01D2AAAD2C700073169 /* soundCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soundCenter.swift; sourceTree = "<group>"; };
+		A0BBD1632AC27B9400CD7841 /* CroissantOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CroissantOne-Regular.ttf"; sourceTree = "<group>"; };
+		A0C3CFB92A9B5CFC0046D930 /* linkEmbedd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linkEmbedd.swift; sourceTree = "<group>"; };
+		A0CC90A42B02234500E33BA4 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		A0CE040E2ABA7CA0000A5CCD /* moreStuff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moreStuff.swift; sourceTree = "<group>"; };
+		A0CF461E2AB29A7B00C989EC /* articleCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = articleCenter.swift; sourceTree = "<group>"; };
+		A0D848A52AE5019000FAD94C /* imagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imagePicker.swift; sourceTree = "<group>"; };
+		A0D848A72AE5019C00FAD94C /* imageViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageViewer.swift; sourceTree = "<group>"; };
+		A0D848A92AE5054D00FAD94C /* notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notifications.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +149,8 @@
 		A0397D3D2A8797C1004BA372 = {
 			isa = PBXGroup;
 			children = (
+				A0A3ED8F2A8F04ED004EF84C /* flappyBird.swift */,
+				A05728C42AE67732006E4B87 /* NexWell--Info.plist */,
 				A0397D482A8797C1004BA372 /* NexWell. */,
 				A0397D5E2A8797C2004BA372 /* NexWell.Tests */,
 				A0397D682A8797C2004BA372 /* NexWell.UITests */,
@@ -98,11 +171,13 @@
 		A0397D482A8797C1004BA372 /* NexWell. */ = {
 			isa = PBXGroup;
 			children = (
+				A0397D542A8797C1004BA372 /* NexWell_.xcdatamodeld */,
+				A0397D522A8797C1004BA372 /* Persistence.swift */,
 				A0397D492A8797C1004BA372 /* NexWell_App.swift */,
 				A0397D4B2A8797C1004BA372 /* ContentView.swift */,
+				A0A51E252ADE5B3D0096A066 /* Pages */,
+				A0599CC12AB93CA9003574D5 /* Components */,
 				A0397D4D2A8797C1004BA372 /* Assets.xcassets */,
-				A0397D522A8797C1004BA372 /* Persistence.swift */,
-				A0397D542A8797C1004BA372 /* NexWell_.xcdatamodeld */,
 				A0397D4F2A8797C1004BA372 /* Preview Content */,
 			);
 			path = NexWell.;
@@ -131,6 +206,126 @@
 				A0397D6B2A8797C2004BA372 /* NexWell_UITestsLaunchTests.swift */,
 			);
 			path = NexWell.UITests;
+			sourceTree = "<group>";
+		};
+		A0599CC12AB93CA9003574D5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A0BBD1622AC27B4F00CD7841 /* Fonts */,
+				A0A51E262ADE71B60096A066 /* quoteView.swift */,
+				A0CE040E2ABA7CA0000A5CCD /* moreStuff.swift */,
+				A0397D7C2A879835004BA372 /* stuff.swift */,
+				A0397D7E2A879868004BA372 /* ifNeedPersistence.swift */,
+				A0397D7A2A879811004BA372 /* wave.swift */,
+				A001B6FE2A89F3F100C52EA9 /* breathThingy.swift */,
+				A0A18D6C2ADD457E000E2A53 /* TimerManager.swift */,
+				A001B7002A89F49100C52EA9 /* CircularProgress.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A0599CC22AB93D15003574D5 /* Centers */ = {
+			isa = PBXGroup;
+			children = (
+				A0CF461E2AB29A7B00C989EC /* articleCenter.swift */,
+				A0599CC32AB93D65003574D5 /* HelplineCenter.swift */,
+				A0B2B01D2AAAD2C700073169 /* soundCenter.swift */,
+				A0615B572AE65837009C5332 /* Games */,
+			);
+			path = Centers;
+			sourceTree = "<group>";
+		};
+		A0615B572AE65837009C5332 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				A099A8CC2A9B6B9400F22B82 /* gameCenter.swift */,
+				A0CC909D2B02228300E33BA4 /* bubblePop */,
+				A0615B582AE65889009C5332 /* Snake */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		A0615B582AE65889009C5332 /* Snake */ = {
+			isa = PBXGroup;
+			children = (
+				A0615B592AE65897009C5332 /* SNGame.swift */,
+				A0615B5B2AE658B7009C5332 /* Snake.swift */,
+				A0615B682AE6590C009C5332 /* SnakeBody */,
+				A0615B5D2AE658C1009C5332 /* Views */,
+			);
+			path = Snake;
+			sourceTree = "<group>";
+		};
+		A0615B5D2AE658C1009C5332 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A0615B602AE658EE009C5332 /* SnakeMain.swift */,
+				A0615B622AE658F5009C5332 /* ScoreView.swift */,
+				A0615B642AE658FC009C5332 /* ButtonView.swift */,
+				A0615B662AE65900009C5332 /* ButtonsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A0615B682AE6590C009C5332 /* SnakeBody */ = {
+			isa = PBXGroup;
+			children = (
+				A0615B692AE6591C009C5332 /* HeadView.swift */,
+				A0615B6B2AE65920009C5332 /* BodyView.swift */,
+				A0615B6D2AE65924009C5332 /* TailBody.swift */,
+			);
+			path = SnakeBody;
+			sourceTree = "<group>";
+		};
+		A0A18D672ADD2673000E2A53 /* Buttons&Modes */ = {
+			isa = PBXGroup;
+			children = (
+				A0A18D652ADD23E4000E2A53 /* mainButtonsStuff.swift */,
+				A0A18D6E2ADD67FB000E2A53 /* colorSettings.swift */,
+				A0A18D682ADD2690000E2A53 /* breatheTimer.swift */,
+				A0A18D6A2ADD40F9000E2A53 /* Promodoro.swift */,
+			);
+			path = "Buttons&Modes";
+			sourceTree = "<group>";
+		};
+		A0A51E252ADE5B3D0096A066 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				A0599CC22AB93D15003574D5 /* Centers */,
+				A0A18D672ADD2673000E2A53 /* Buttons&Modes */,
+				A0D848A42AE5017200FAD94C /* main and image */,
+				A03058FC2AC1526200321423 /* trannyView.swift */,
+				A01888142AC6991200AE748B /* booking.swift */,
+				A0C3CFB92A9B5CFC0046D930 /* linkEmbedd.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		A0BBD1622AC27B4F00CD7841 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A0BBD1632AC27B9400CD7841 /* CroissantOne-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A0CC909D2B02228300E33BA4 /* bubblePop */ = {
+			isa = PBXGroup;
+			children = (
+				A0CC90A42B02234500E33BA4 /* GameView.swift */,
+			);
+			path = bubblePop;
+			sourceTree = "<group>";
+		};
+		A0D848A42AE5017200FAD94C /* main and image */ = {
+			isa = PBXGroup;
+			children = (
+				A0397D782A8797EF004BA372 /* mainPage.swift */,
+				A0D848A92AE5054D00FAD94C /* notifications.swift */,
+				A0D848A52AE5019000FAD94C /* imagePicker.swift */,
+				A0D848A72AE5019C00FAD94C /* imageViewer.swift */,
+			);
+			path = "main and image";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +392,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					A0397D452A8797C1004BA372 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -238,6 +433,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0397D512A8797C1004BA372 /* Preview Assets.xcassets in Resources */,
+				A0BBD1642AC27B9400CD7841 /* CroissantOne-Regular.ttf in Resources */,
 				A0397D4E2A8797C1004BA372 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,9 +459,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A01888152AC6991200AE748B /* booking.swift in Sources */,
+				A0A18D6D2ADD457E000E2A53 /* TimerManager.swift in Sources */,
+				A0615B5C2AE658B7009C5332 /* Snake.swift in Sources */,
+				A0A18D662ADD23E4000E2A53 /* mainButtonsStuff.swift in Sources */,
+				A0615B652AE658FC009C5332 /* ButtonView.swift in Sources */,
+				A0A3ED902A8F04ED004EF84C /* flappyBird.swift in Sources */,
+				A0599CC42AB93D65003574D5 /* HelplineCenter.swift in Sources */,
+				A0B2B01E2AAAD2C700073169 /* soundCenter.swift in Sources */,
+				A0D848A82AE5019C00FAD94C /* imageViewer.swift in Sources */,
+				A001B6FF2A89F3F100C52EA9 /* breathThingy.swift in Sources */,
+				A0615B6A2AE6591C009C5332 /* HeadView.swift in Sources */,
+				A0615B612AE658EE009C5332 /* SnakeMain.swift in Sources */,
+				A0615B672AE65900009C5332 /* ButtonsView.swift in Sources */,
+				A0CC90A52B02234500E33BA4 /* GameView.swift in Sources */,
+				A0D848A62AE5019000FAD94C /* imagePicker.swift in Sources */,
+				A03058FD2AC1526200321423 /* trannyView.swift in Sources */,
+				A0615B6E2AE65924009C5332 /* TailBody.swift in Sources */,
+				A0615B6C2AE65920009C5332 /* BodyView.swift in Sources */,
+				A0CE040F2ABA7CA0000A5CCD /* moreStuff.swift in Sources */,
+				A0397D7B2A879811004BA372 /* wave.swift in Sources */,
+				A0C3CFBA2A9B5CFC0046D930 /* linkEmbedd.swift in Sources */,
+				A099A8CD2A9B6B9400F22B82 /* gameCenter.swift in Sources */,
+				A0397D792A8797EF004BA372 /* mainPage.swift in Sources */,
+				A0397D7F2A879868004BA372 /* ifNeedPersistence.swift in Sources */,
+				A0615B5A2AE65897009C5332 /* SNGame.swift in Sources */,
+				A0A18D6B2ADD40F9000E2A53 /* Promodoro.swift in Sources */,
+				A0A51E272ADE71B60096A066 /* quoteView.swift in Sources */,
+				A0A18D692ADD2690000E2A53 /* breatheTimer.swift in Sources */,
 				A0397D532A8797C1004BA372 /* Persistence.swift in Sources */,
+				A0D848AA2AE5054D00FAD94C /* notifications.swift in Sources */,
+				A001B7012A89F49100C52EA9 /* CircularProgress.swift in Sources */,
+				A0CF461F2AB29A7B00C989EC /* articleCenter.swift in Sources */,
+				A0397D7D2A879835004BA372 /* stuff.swift in Sources */,
 				A0397D4C2A8797C1004BA372 /* ContentView.swift in Sources */,
+				A0615B632AE658F5009C5332 /* ScoreView.swift in Sources */,
 				A0397D4A2A8797C1004BA372 /* NexWell_App.swift in Sources */,
+				A0A18D6F2ADD67FB000E2A53 /* colorSettings.swift in Sources */,
 				A0397D562A8797C1004BA372 /* NexWell_.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +569,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -353,7 +584,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,6 +630,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -407,7 +639,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -425,13 +657,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NexWell./Preview Content\"";
+				DEVELOPMENT_TEAM = 2DFAK84WA2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NexWell--Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -439,9 +675,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "keoni.NexWell-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -453,13 +692,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NexWell./Preview Content\"";
+				DEVELOPMENT_TEAM = 2DFAK84WA2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NexWell--Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,9 +710,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "keoni.NexWell-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
